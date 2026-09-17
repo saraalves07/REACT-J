@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import './App.css'
 import Depoimentos from "./components/Depoimentos"
 import Contato from "./components/Contato"
+import DadosCurso from "./components/DadosCurso"
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
 
       <Beneficios />
       
-
+      <DadosCurso/>
       <Formulario />
       <Depoimentos />
       <Contato />
